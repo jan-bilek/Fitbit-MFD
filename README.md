@@ -16,21 +16,18 @@ Currently suppported alerts:
 - UV
 - Freeze
 - Humidity
+
 Planned alerts:
 - Storm
 - Air Quality
 - Pressure
 
-#########
-# SETUP #
-#########
+# SETUP
 If you'd like to give it a try, there's just one alteration you'll need to do:
 	1. Set up a free account on https://home.openweathermap.org/users/sign_up and get the API key
 	2. Copy this API key to the API_KEY variable on line 10 of companion/index.js file
 
-#########################
-# TODO and KNOWN ISSUES #
-#########################
+# TODO and KNOWN ISSUES
 1. Resolve connectivity issues between phone and watch (is it just my setup, or everyone suffers from it?)
 	- temporary workaround: if this happens - open "Settings" or other app on the watch and the connection gets restored
 2. Replace temporary 'last update' time from bottom-left corner with active minutes or other useful information
@@ -39,8 +36,7 @@ If you'd like to give it a try, there's just one alteration you'll need to do:
 5. Restyle the alert icons to fit the overall face style
 6. Add support of displaying calendar events in 12-hrs outlook
 
-################
-# CLOSING NOTE #
-################
+# CLOSING NOTE
 If you invest few minutes to get the project set up, I believe the face will serve you well. It saved me quite a few times from getting soaked or surprised by other weather events and kept my kids out from direct sunlight when the UV was far from OK.
+
 And to Fitbit folks from Google: if you'd be interested to take my idea to next level and offer something similar as stock face, I'm all for it. And if interested, just let me know and I will be happy assist you with providing better insight in the overall philosophy or any particular feature you'd like to know more about.
