@@ -1,5 +1,6 @@
 # Fitbit-MFD
 Multifunctional Face Display for Fitbit Sense - Focus on weather and environment awareness with alert prioritization and clean style
+![MFD Banner](MFD.png "MFD Banner")
 
 This is the work-in-progress fitbit face that offers quite advanced functionality to keep you informed about your surroundings while keeping the display nice and clean (yes, content-rich, but not cluttered).
 
