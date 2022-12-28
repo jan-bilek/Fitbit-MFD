@@ -1,0 +1,167 @@
+.background {
+  viewport-fill: black;
+}
+
+#lblTime {
+  font-size: 78;
+  font-family: Colfax-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 167;
+  y: 157;
+  fill: white;
+}
+#lblHR {
+  font-size: 48;
+  font-family: Colfax-Bold;
+  text-length: 4;
+  text-anchor: start;
+  x: 150;
+  y: 95;
+  fill: white;
+}
+
+#lblDate {
+  font-size: 24;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 238;
+  y: -175;
+  fill: white;
+}
+#lblAM {
+  font-size: 24;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 238;
+  y: 192;
+  fill: white;
+}
+#lblBattery {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 7;
+  text-anchor: middle;
+  x: 0;
+  y: 60;
+  fill: white;
+}
+#lblSteps {
+  font-size: 24;
+  font-family: Colfax-Medium;
+  text-length: 8;
+  text-anchor: start;
+  x: -35;
+  y: 426;
+  fill: white;
+}
+
+
+#lblTemperature {
+  font-size: 24;
+  font-family: Colfax-Medium;
+  text-length: 9;
+  text-anchor: middle;
+  x: 168;
+  y: 277;
+  fill: white;
+}
+
+#lblAlert1 {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 90;
+  y: 207;
+}
+#lblAlert2 {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 163;
+  y: 207;
+}
+#lblAlert3 {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 236;
+  y: 207;
+}
+
+
+#lblAlert1_now {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 105;
+  y: 240;
+}
+#lblAlert2_now {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 178;
+  y: 240;
+}
+#lblAlert3_now {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 251;
+  y: 240;
+}
+
+
+
+.imgAlertNone {
+  fill: #99eeff; opacity: 1; 
+}
+.imgAlertInformative {
+  fill: #99eeff; opacity: 1; 
+}
+.imgAlertLow {
+  fill: #00b3ff; opacity: 1; 
+}
+.imgAlertModerate {
+  fill: #ffdc00; opacity: 1; 
+}
+.imgAlertHigh {
+  fill: #ff8800; opacity: 1;
+}
+.imgAlertSevere {
+  fill: #ff2222; opacity: 1; 
+}
+.imgAlertExtreme {
+  fill: #ff00ff; opacity: 1; 
+}
+
+.lblAlertNone {
+  fill: #99eeff; opacity: 1; 
+}
+.lblAlertInformative {
+  fill: #99eeff; opacity: 1; 
+}
+.lblAlertLow {
+  fill: #00b3ff; opacity: 1; 
+}
+.lblAlertModerate {
+  fill: #ffdc00; opacity: 1; 
+}
+.lblAlertHigh {
+  fill: #ff8800; opacity: 1; 
+}
+.lblAlertSevere {
+  fill: #ff2222; opacity: 1; 
+}
+.lblAlertExtreme {
+  fill: #ff00ff; opacity: 1; 
+}

@@ -1,0 +1,117 @@
+<svg class="background">
+  <image href="bg.png" />
+    
+  <image id="imgAlert1" x="60" y="175" width="70" height="70"/>
+  <image id="imgAlert2" x="133" y="175" width="70" height="70"/>
+  <image id="imgAlert3" x="206" y="175" width="70" height="70"/>
+
+  <text id="lblTime" />
+  
+  <image id="imgHR" x="112" y="63" width="31" height="27" fill="#ffffff" href="heart.png" opacity="1.0"/>
+  
+  <text id="lblHR">---</text>
+  
+  <g transform="rotate(45)">
+    <text id="lblDate" />
+  </g>
+  <g transform="rotate(45)">
+    <text id="lblAM" >--- m</text>
+  </g>
+  <g transform="rotate(-45)">
+    <text id="lblSteps">-----</text>
+  </g>
+  <g transform="rotate(-45)">
+    <text id="lblBattery">---</text>
+  </g>
+  
+  <text id="lblTemperature">---</text> 
+  
+  <text id="lblAlert1">---</text>
+  <text id="lblAlert2">---</text>
+  <text id="lblAlert3">---</text>
+  
+  <text id="lblAlert1_now">---</text>
+  <text id="lblAlert2_now">---</text>
+  <text id="lblAlert3_now">---</text>
+    
+  <!--dayStrip-->  
+  <!--<rect id="dsW0" x="0" y="288" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW1" x="0" y="275" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW2" x="0" y="263" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW3" x="0" y="250" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW4" x="0" y="238" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW5" x="0" y="225" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  
+  <rect id="dsW6" x="0" y="213" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW7" x="0" y="200" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW8" x="0" y="188" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW9" x="0" y="175" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW10" x="0" y="163" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW11" x="0" y="150" width="30" height="13" fill="#007bff" opacity="0.0"/>  
+  
+  <rect id="dsW12" x="0" y="138" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW13" x="0" y="125" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW14" x="0" y="113" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW15" x="0" y="100" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW16" x="0" y="88" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW17" x="0" y="75" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  
+  <rect id="dsW18" x="0" y="63" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW19" x="0" y="50" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW20" x="0" y="38" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW21" x="0" y="25" width="30" height="13" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW22" x="0" y="13" width="30" height="12" fill="#007bff" opacity="0.0"/>
+  <rect id="dsW23" x="0" y="0" width="30" height="13" fill="#007bff" opacity="0.0"/>-->
+  
+  <rect id="dsDaylight" x="0" y="85" width="5" height="100" fill="#e5f2ff" opacity="0.0"/>
+    
+  <g transform="translate(168,168)">
+    <g transform="rotate(210)">
+      <image id="dsW0" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(240)">
+      <image id="dsW1" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(270)">
+      <image id="dsW2" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(300)">
+      <image id="dsW3" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(330)">
+      <image id="dsW4" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <image id="dsW5" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    <g transform="rotate(30)">
+      <image id="dsW6" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(60)">
+      <image id="dsW7" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(90)">
+      <image id="dsW8" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(120)">
+      <image id="dsW9" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(150)">
+      <image id="dsW10" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+    <g transform="rotate(180)">
+      <image id="dsW11" x="0" y="0" width="82" height="168" href="arc.png" opacity="1.0"/>
+    </g>
+  </g>
+  
+  <g transform="translate(168,168)">
+    <g id="gNow" transform="rotate(0)">
+      <image id="dsNow" x="-5" y="-168" width="10" height="30" href="now.png" fill="#ffffff" opacity="1.0"/>
+    </g>
+    <g id="gSunset" transform="rotate(45)">
+      <image id="dsSunset" x="-12" y="-146" width="24" height="12" href="sunset.png" fill="#ff7700" opacity="1.0"/>
+    </g>
+    <g id="gSunrise" transform="rotate(-45)">
+      <image id="dsSunrise" x="-12" y="-146" width="24" height="12" href="sunrise.png" fill="#ffbb00" opacity="1.0"/>
+    </g>
+  </g>
+  
+</svg>
